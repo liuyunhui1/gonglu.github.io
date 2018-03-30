@@ -1,0 +1,11 @@
+Bootstrap很受欢迎的原因之一便是它的Grid(网格)系统。
+Bootstrap将页面划分为12列的网格，我们只需要通过预设的class名称来告知每个HTML元素占有的网格数，便可以很便利地指定它们在页面上的宽度。
+
+
+图中的，container, jumbotron, col-sm-6, col-sm-3等文字是Bootstrap预设的class名称，只需将它们加在html元素的标签中，便可实现对元素宽度的布局。
+
+jumbotron这个class会将元素的宽度延伸至整个浏览器的宽度，一般用于设定网页中最醒目的图片。
+
+container意为容器，一般作为div的父级使用，它占有12格宽度。
+
+col-sm-6, col-sm-3, 或col-sm-x(1-12中的任意数字)也是class，代表该元素占有的格数。
